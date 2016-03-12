@@ -70,7 +70,7 @@ class MultiServer implements Plugin{
 		}
 	}
 	
-	public function command($cmd, $params, $issuer, $alias){
+	public function onCommand($cmd, $params, $issuer, $alias){
 		$output = "";
 		switch($cmd){
 			case "multiadd":
